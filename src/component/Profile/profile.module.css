@@ -1,0 +1,54 @@
+.info {
+  border: 1px solid black;
+  width: 400px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.infoProfile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+  margin-block-start: 15px;
+  margin-block-end: 15px;
+}
+
+.details {
+  color: #6b6a6a;
+  margin-block-end: 5px;
+  margin-block-start: 5px;
+}
+
+.information {
+  display: flex;
+  border: 1px solid black;
+  list-style: none;
+  color: #000000;
+}
+
+.listStat {
+  border: 1px solid black;
+  width: calc(100% / 3);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number {
+  font-weight: bold;
+}
